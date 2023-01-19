@@ -1,0 +1,1217 @@
+body {
+    text-align: center;
+}
+
+/* Navigation-bar */
+
+.navbar {
+    margin: auto;
+}
+
+.logo {
+    margin-left: 2%;
+    width: 8%;
+}
+
+.navbar-list {
+    padding-right: 2rem;
+}
+
+.nav-text {
+    color: #be9c79;
+    font-weight: 600;
+}
+
+.navbar-toggler {
+    border-color: #be9c79;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(190,156,121, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+/* Favicon */
+
+.fa-icon {
+    height: 20px;
+    width: 20px;
+    margin: 10px 10px;
+    color: #be9c79;
+}
+
+/* Section */
+
+.container-fluid {
+    padding: 0;
+}
+
+.right {
+    background-image: linear-gradient(to left, #361e12, #4f3629);
+}
+
+.left {
+    text-align: center;
+    background-image: linear-gradient(to right, #361e12, #d6bbaa);
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+/* Title-image */
+
+.title-image {
+    width: 35%;
+    position: absolute;
+    z-index: 0;
+    top: 5%;
+    left: 2%;
+}
+
+.coffee-beans {
+    margin-top: 13rem;
+    width: 12%;
+}
+
+/* Headding */
+
+.big-heading {
+    margin-top: 1rem;
+    font-family: 'Spicy Rice', cursive;
+    font-size: 4rem;
+    letter-spacing: 0.025em;
+    color: #895946;
+}
+
+.coffee {
+    font-family: 'Roboto', sans-serif;
+    color: #895946;
+}
+
+.flat {
+    font-family: 'Roboto', sans-serif;
+    color: #895946;
+}
+
+.fine-taste {
+    margin-top: 2rem;
+    color: #eaf6f6;
+}
+
+.design1 {
+    width: 8%;
+    position: relative;
+    bottom: 6.1rem;
+    right: 5px;
+}
+
+.design2 {
+    width: 7%;
+    position: relative;
+    bottom: 6.1rem;
+    left: 10rem;
+}
+
+/* Button */
+
+.buy-now-btn {
+    position: relative;
+    margin: 5% 3% 10%;
+    right: 4rem;
+    border-radius: 2px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 15px;
+    background: #be9c79;
+    padding: 15px 25px 15px 25px;
+    text-decoration: none;
+}
+
+.buy-now-btn:hover,
+.shop-btn:hover,
+.card-buy-btn:hover,
+.collection-btn:hover,
+.subscribe-btn:hover,
+.message-send-btn:hover {
+    background: #5e473e;
+    background-image: url(/images/button-img.png);
+    background-position: 50% 70%;
+}
+
+/* features */
+
+#features {
+    padding: 7% 5% 3%;
+    position: relative;
+    z-index: 1;
+}
+
+.features-heading,
+.product-heading {
+    margin-top: 1rem;
+    font-family: 'Spicy Rice', cursive;
+    font-size: 2.5rem;
+    letter-spacing: 0.05em;
+    color: #514242;
+}
+
+
+.features-point {
+    font-family: 'Spicy Rice', cursive;
+    font-size: 1.5rem;
+    letter-spacing: 0.05em;
+    color: #514242;
+}
+
+.features-point:hover,
+.features2-point:hover,
+.product-card-title:hover,
+.menu-point:hover {
+    color: #be9c79;
+}
+
+.coffee-cup {
+    width: 20%;
+}
+
+/* Message-Section */
+
+.message-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10% 0;
+}
+
+.msg-contain {
+    padding: 0 5%;
+}
+
+.message-container {
+    padding: 0 25%;
+    text-align: left;
+}
+
+.message-section::before {
+    content: "";
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url(/images/background-img.jpeg);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+
+.message-heading {
+    position: relative;
+    font-family: 'Spicy Rice', cursive;
+    line-height: 0.9;
+    font-size: 3rem;
+    letter-spacing: 0.025em;
+    color: #514242;
+    margin-bottom: 30px;
+}
+
+.message-sub-heading {
+    position: relative;
+    font-family: 'Spicy Rice', cursive;
+    line-height: 0.9;
+    color: #895946;
+    margin-bottom: 35px;
+}
+
+.message-contain {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2;
+    margin-bottom: 50px;
+}
+
+.button {
+    margin-bottom: 50px;
+}
+
+.shop-btn {
+    position: relative;
+    border-radius: 2px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 15px;
+    background: #be9c79;
+    padding: 15px 25px 15px 25px;
+    text-decoration: none;
+}
+
+
+.signature {
+    position: relative;
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+/* features 2 */
+.feature2-img {
+    width: 100%;
+}
+
+.col-lg-6,
+.col-md-12 {
+    padding: 0 2%;
+}
+
+#features2 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/images/feature2-background.png);
+    text-align: left;
+    padding: 10% 0 5%;
+}
+
+.container2 {
+    margin: 0 5%;
+    padding: 0 3%;
+}
+
+.feature2-heading {
+    font-family: 'Spicy Rice', cursive;
+    letter-spacing: 0.05em;
+    color: #514242;
+    margin-bottom: 2rem;
+}
+
+.features2-point {
+    font-family: 'Spicy Rice', cursive;
+    letter-spacing: 0.05em;
+    color: #874d34;
+    margin: 0 0 1rem 5rem;
+}
+
+.features2-icon {
+    float: left;
+}
+
+.points2 {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0 2rem 5rem;
+}
+
+/* Offer Section */
+.offer-section {
+    padding: 5rem 0 3.75rem;
+}
+
+.offer-container {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/images/offer-section-background.jpeg);
+    padding: 0 20%;
+}
+
+.offer-contain {
+    padding: 8%;
+}
+
+.offer-heading {
+    font-family: 'Roboto-400', sans-serif;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.offer-heading2 {
+    font-family: 'Spicy Rice', cursive;
+    font-size: 40pt;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.offer-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+    color: #fff;
+    margin: 30px 0 40px;
+}
+
+/* Our Products */
+#our-products {
+    padding: 30px 0 40px;
+    margin: 0 10%;
+}
+
+.product-text {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 20%;
+}
+
+.card-effect {
+    width: 80%;
+    transition: all ease 0.2s;
+}
+
+.card-effect:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.5);
+    border: 3px solid #514242;
+}
+
+.card-section {
+    margin-top: 7%;
+    margin-left: 7%;
+}
+
+.product-card-title {
+    font-family: 'Spicy Rice', cursive;
+    letter-spacing: 0.05em;
+    color: #514242;
+}
+
+.card-buy-btn {
+    border-radius: 2px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 15px;
+    background: #be9c79;
+    padding: 7px 20px;
+    text-decoration: none;
+}
+
+/* Our Gallery Section */
+#our-gallery {
+    box-shadow: 0px 15px 10px -15px rgba(0, 0, 0, 0.8);
+}
+
+.gallery-heading {
+    margin: 3rem 0;
+    font-family: 'Spicy Rice', cursive;
+    font-size: 2.5rem;
+    letter-spacing: 0.05em;
+    color: #514242;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 0px;
+    position: relative;
+}
+
+.gallery-img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(171, 131, 113, 0.7);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: all ease 0.6s;
+}
+
+.img-overlay:hover {
+    opacity: 1;
+}
+
+.img-title {
+    font-family: 'Spicy Rice', cursive;
+    letter-spacing: 0.05em;
+}
+
+.img-discription {
+    font-family: 'Roboto', sans-serif;
+    margin: 1em 0em;
+}
+
+.collection-btn {
+    border-radius: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    background: #be9c79;
+    padding: 14px 20px;
+    text-decoration: none;
+    width: 33%;
+    margin-left: 33%;
+}
+
+/* Menu Section */
+.menu {
+    margin-left: 4.75%;
+}
+
+.row-padding {
+    margin-bottom: 20px;
+}
+
+.menu-point-heading,
+.cost {
+    display: table-cell;
+}
+
+.menu-heading,
+.client-heading {
+    margin: 4rem 0 3rem;
+    font-family: 'Spicy Rice', cursive;
+    font-size: 2.5rem;
+    letter-spacing: 0.05em;
+    color: #514242;
+}
+
+.menu-point,
+.footer-point {
+    font-family: 'Spicy Rice', cursive;
+    letter-spacing: 0.05em;
+    color: #874d34;
+    text-decoration: none;
+
+}
+
+.menu-description {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    padding-top: 3px;
+}
+
+/* Popular Collection Section*/
+#popular-collection {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/images/popular-collection/background-img.jpeg);
+    margin-top: 5%;
+    padding: 7% 0 5%;
+}
+
+.collection-container {
+    margin: 0px 30px;
+}
+
+.collection-card {
+    margin-top: 50px;
+}
+
+.collection-heading,
+.newsletter-heading {
+    margin-bottom: 1rem;
+    font-family: 'Spicy Rice', cursive;
+    font-size: 2.5rem;
+    letter-spacing: 0.05em;
+    color: #fff;
+}
+
+.chd {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    margin: 0 30%;
+}
+
+.card-column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.heading {
+    color: white;
+}
+
+.card-bg,
+.card-bg-footer {
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+.card-bg:hover {
+    transition: all ease 2s;
+    background: rgba(171, 131, 113, 0.7);
+}
+
+.collection-card-title {
+    font-family: 'Spicy Rice', cursive;
+    letter-spacing: 0.05em;
+    color: #fff;
+}
+
+/* Types Section */
+.type-contain {
+    margin: 10% 0px;
+    padding: 0px 5%;
+}
+
+.type-heading {
+    font-family: 'Spicy Rice', cursive;
+    font-size: 1.5rem;
+    letter-spacing: 0.05em;
+    color: #514242;
+}
+
+.type-number {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #be9c79;
+    margin-bottom: 15px;
+}
+
+.type-icon {
+    margin-bottom: 20px;
+}
+
+/* Newsletter */
+#newsletter {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/images/newsletter-bg.jpeg);
+    padding: 7% 0 5%;
+}
+
+.newsletter-description {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    margin: 0px 2% 50px;
+}
+
+.subscribe-btn {
+    width: 150px;
+    text-align: center;
+    border-radius: 2px;
+    border: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background: #be9c79;
+    padding: 10px 25px 10px 25px;
+}
+
+.form-control {
+    height: 45px;
+}
+
+/* Our Clients Section */
+.card-container {
+    margin: 50px 5% 50px;
+}
+
+/* Footer Section */
+#footer {
+    background-image: url(/images/footer-bg.jpeg);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 7%;
+    margin-top: 60px;
+}
+
+.footer-point {
+    font-family: 'Spicy Rice', cursive;
+    font-size: 1.5rem;
+    letter-spacing: 0.05em;
+    color: #be9c79;
+    text-align: left;
+
+}
+
+.footer-list {
+    list-style-type: none;
+    padding-left: 0px;
+    text-align: left;
+}
+
+.list-point {
+    padding-bottom: 8px;
+}
+
+.top-footer {
+    margin: 0px 5% 30px;
+}
+
+.contact-address {
+    text-align: left;
+    color: #fff;
+}
+
+.li-point {
+    color: #fff;
+    text-decoration: none;
+}
+
+.leftside,
+.rightside {
+    height: 50vh;
+    width: 100%;
+}
+
+.bottom-footer {
+    height: 10rem;
+    padding-top: 60px;
+    background-color: #f9efd4;
+    border-left: 2px solid #fff;
+}
+
+.bottom-footer-heading {
+    font-family: 'Spicy Rice', cursive;
+    color: #be9c79;
+    font-size: 1.5rem;
+    letter-spacing: 0.05em;
+}
+
+.contact-btn {
+    color: #514242;
+    margin: 0px 7px;
+}
+
+.contact-btn:hover {
+    color: #be9c79;
+}
+
+.copyright {
+    color: #fff;
+    padding: 7px 0px;
+}
+
+/* Contact-Us Section */
+#contact-form {
+    margin-bottom: 5%;
+}
+
+.contact-section {
+    background-color: #f4f4f4;
+    padding: 10% 0px 4%;
+    margin-bottom: 7%;
+}
+
+.cont-heading {
+    font-family: 'Spicy Rice', cursive;
+    font-size: 2rem;
+    letter-spacing: 0.05em;
+    color: #514242;
+}
+
+.anchor-home,
+.cont-span {
+    font-weight: 400;
+    color: #514242;
+    text-decoration: none;
+    padding: 0px 4px;
+}
+
+.anchor-home:hover,
+.mail-cont:hover {
+    transition: all ease 0.3s;
+    color: #be9c79;
+}
+
+/* Contact Card Section */
+.contact-form-container {
+    margin: 0px 6%;
+    padding: 0px 25px;
+}
+
+.card-icon,
+.card-contain {
+    text-align: left;
+}
+
+.card-icon {
+    background: #be9c79;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.card-icon:hover {
+    background: #514242;
+}
+
+.font-icon {
+    padding-top: 15px;
+}
+
+.card-heading {
+    font-family: 'Spicy Rice', cursive;
+    letter-spacing: 0.05em;
+    color: #514242;
+    margin: 30px 0px 15px;
+}
+
+.card-cont {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    text-decoration: none;
+}
+
+
+/* Contact form Section */
+.contact-form-section {
+    margin-top: 50px;
+}
+
+.form-heading {
+    text-align: left;
+    font-family: 'Spicy Rice', cursive;
+    letter-spacing: 0.05em;
+    color: #514242;
+    margin: 10px 0px 20px;
+}
+
+.input-text {
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    color: rgb(26, 26, 26);
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+textarea[type=text]:focus,
+.card-hover:hover {
+    transition: all ease 0.5s;
+    border: 1px solid #be9c79;
+}
+
+.message-send-btn {
+    border-radius: 2px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 1rem;
+    background: #be9c79;
+    width: 30%;
+    padding: 10px 28px;
+}
+
+/* Search Section */
+#search-section {
+    margin: 7% 0px;
+}
+
+.search-heading,
+.OP-heading,
+.cust-heading {
+    margin: 30px 0px 20px;
+    font-family: 'Spicy Rice', cursive;
+    font-size: 2.5rem;
+    letter-spacing: 0.05em;
+    color: #514242;
+}
+
+.search-contain {
+    margin: 0px 10%;
+}
+
+.searchDrawer {
+    margin: 0px 5%;
+}
+
+.search-btn {
+    padding: 0px;
+}
+
+.fa-search {
+    color: #1a1a1a;
+    font-size: 24px;
+}
+
+.fa-search:hover {
+    color: #be9c79
+}
+
+/* Faq's Section */
+.faq-container {
+    margin: 0px 10%;
+    padding: 0px 20px;
+}
+
+.accordion {
+    padding: 0px 8%;
+}
+
+.accordion li {
+    list-style: none;
+}
+
+.accordion li label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background: #5e473e;
+    margin-bottom: 30px;
+    font-family: 'Spicy Rice', cursive;
+    font-size: 1.5rem;
+    letter-spacing: 0.05em;
+    padding: 20px 60px;
+    color: #fff;
+}
+
+label::before {
+    content: '\2b';
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: fontawesome;
+    transform: rotate(-180deg);
+    transition: transform 0.5s;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.accordion .content {
+    max-height: 0;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.accordion input[type="radio"]:checked+label+.content {
+    max-height: 400px;
+    padding: 0px 30px 30px;
+}
+
+.accordion input[type="radio"]:checked+label::before {
+    content: '\f068';
+    transform: rotate(0deg);
+}
+
+/* Our Partners Section */
+.our-partners-container {
+    margin: 0px 7% 5%;
+    padding: 0px 30px;
+}
+
+.OP-heading {
+    margin-bottom: 6%;
+}
+
+.partner-card {
+    margin: 0px 20%;
+}
+
+.partner-name {
+    font-family: 'Spicy Rice', cursive;
+    letter-spacing: 0.05em;
+    color: #514242;
+}
+
+.work-position {
+    font-family: 'Spicy Rice', cursive;
+    letter-spacing: 0.05em;
+    color: #be9c79;
+}
+
+.OP-img {
+    transition: all 1s ease-in-out;
+    margin-bottom: 10px;
+}
+
+.OP-img:hover {
+    transform: scale(1.1);
+}
+
+.social-media-icon {
+    width: 40px;
+    height: 40px;
+    padding: 10px 15px;
+    background: #be9c79;
+    color: #fff;
+}
+
+.partners-social-media {
+    margin: 20px 0px 5px;
+}
+
+.social-media-icon:hover {
+    transition: all 0.5s ease;
+    background: #514242;
+}
+
+/* testimonials */
+#testimonials {
+    background-image: url(/images/testimonial-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 7% 0% 5%;
+    margin-top: 60px;
+}
+
+.testimonial-conatiner {
+    margin: 0px 10%;
+    padding-bottom: 7%;
+}
+
+.testimonial-contain {
+    margin: 0% 5%;
+}
+
+.testimonial-heading {
+    margin: 30px 0px 5%;
+    font-family: 'Spicy Rice', cursive;
+    font-size: 2.5rem;
+    letter-spacing: 0.05em;
+    color: #fff;
+}
+
+.testimonial-icon {
+    padding-bottom: 50px;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text {
+    color: #fff;
+}
+
+.profile-info {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+
+.info-pic {
+    color: #be9c79;
+}
+
+.info-pic::before {
+    content: '-';
+    margin: 0px 8px;
+    color: #be9c79;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Customers Section */
+
+.customer-container {
+    margin: 7% 8%;
+    padding: 30px;
+}
+
+.cust-card {
+    border: 1px solid black;
+    text-align: left;
+    font-family: 'Spicy Rice', cursive;
+}
+
+.cust-card-icon {
+    background-color: #be9c79;
+    color: #514242;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    font-size: 30px;
+    float: right;
+    text-align: center;
+}
+
+.cust-ic {
+    padding-top: 22.5px;
+}
+
+.counter-value,
+.card-body:hover .cust-card-title {
+    color: #be9c79;
+}
+
+.cust-card-title {
+    font-size: 1.5rem;
+    letter-spacing: 0.05em;
+    color: #514242;
+}
+
+.cust-card-description {
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-body .cust-card-icon {
+    border: 1px solid black;
+}
+
+.card-body .cust-card-icon .cust-ic {
+    transition: transform .7s ease-in-out;
+}
+
+.card-body:hover .cust-card-icon {
+    background-color: #fff;
+}
+
+.card-body:hover .cust-card-icon .cust-ic {
+    transform: rotateY(180deg);
+}
+
+.counter,
+.cust-card-title,
+.cust-card-description {
+    margin: 0px 100px 15px 0px;
+}
+
+.shipping-container {
+    margin: 0% 7%;
+    padding: 0px 30px;
+    text-align: left;
+}
+
+.return-policy-heading,
+.shipping-heading {
+    margin: 60px 0px 20px;
+    font-family: 'Spicy Rice', cursive;
+    font-size: 1.5rem;
+    letter-spacing: 0.05em;
+    color: #514242;
+}
+
+.return-policy-description,
+.shipping-description {
+    font-family: 'Roboto', sans-serif;
+    line-height: 2;
+    padding: 20px 0px;
+}
+
+/* Wishlist Section */
+.wishlist-container {
+    margin: 0% 7%;
+    padding: 0px 30px;
+}
+
+.cart-sec img {
+    width: 100px;
+}
+
+.cart-heading {
+    margin: 30px 0px;
+    font-family: 'Spicy Rice', cursive;
+    font-size: 2rem;
+    letter-spacing: 0.05em;
+    color: #514242;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 990px) {
+    .logo {
+        width: 12%;
+    }
+
+    .title-image {
+        display: none;
+    }
+
+    .design1,
+    .design2 {
+        display: none;
+    }
+
+    .buy-now-btn {
+        right: 0.25rem;
+    }
+
+    .coffee-cup {
+        width: 50%;
+    }
+
+    .message-container {
+        padding: 0 5%;
+        text-align: left;
+    }
+
+    .box-img {
+        transition: transform .7s ease-in-out;
+    }
+
+    .box-img:hover {
+        transform: rotateY(180deg);
+    }
+
+    .feature2-img {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .features2-point,
+    .points2 {
+        margin-left: 0px;
+    }
+
+    .features2-icon {
+        float: none;
+        margin-bottom: 10px;
+    }
+
+    .features2-icon:hover {
+        transition: all ease 0.2s;
+        transform: translateX(5px);
+    }
+
+    .card-section {
+        margin-top: 8%;
+        margin-left: 20%;
+    }
+
+    .column {
+        flex: none;
+        padding: 0px;
+    }
+
+    .collection-btn {
+        width: 35%;
+    }
+
+    .menu {
+        margin-left: 0px;
+    }
+
+    .chd {
+
+        margin: 0 15%;
+    }
+
+    .bottom-footer {
+        border: none;
+    }
+
+    .contact-section {
+        margin-bottom: 12%;
+    }
+
+}
