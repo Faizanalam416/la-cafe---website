@@ -824,6 +824,7 @@ nav {
 
 input[type=text]:focus,
 input[type=email]:focus,
+input[type=password]:focus,
 textarea[type=text]:focus,
 .card-hover:hover {
     transition: all ease 0.5s;
@@ -1150,14 +1151,36 @@ input[type="radio"] {
     color: #514242;
 }
 
+/* Account Section */
+.account-container {
+    margin: 0% 7%;
+    padding: 30px;
+}
 
+.account-contain {
+    margin: 0% 12%;
+    background-color: #f4f4f4;
+}
 
+.login-form {
+    padding: 50px;
+}
 
+.login-page-option {
+    text-decoration: none;
+    color: #000;
+}
 
+.line {
+    border: 0px;
+    height: 2px;
+    background: #555;
+}
 
-
-
-
+.login-page-option:hover {
+    transition: 0.6s ease-in-out;
+    color: #be9c79;
+}
 
 
 
@@ -1253,6 +1276,10 @@ input[type="radio"] {
 
     .contact-section {
         margin-bottom: 12%;
+    }
+
+    .account-contain {
+        margin: 0%;
     }
 
 }
