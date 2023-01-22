@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Account - la café</title>
+    <title>Create Account - la café</title>
 
     <!-- Google-Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -90,10 +90,10 @@
             <div class="contact-section">
                 <div class="contact-heading-container">
                     <div class="contact-contain">
-                        <h2 class="cont-heading">Account</h2>
+                        <h2 class="cont-heading">Create Account</h2>
                     </div>
                     <a class="anchor-home" href="index.html">Home</a><span class="cont-span"
-                        aria-hidden="true">/</span><span class="cont-span">Account</span>
+                        aria-hidden="true">/</span><span class="cont-span">Create Account</span>
                 </div>
             </div>
         </div>
@@ -106,6 +106,14 @@
             <div class="account-contain">
                 <form class="login-form">
                     <div class="mb-3">
+                        <input type="text" class="form-control rounded-0 shadow-none input-text search-box"
+                            placeholder="First name" aria-label="First name">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control rounded-0 shadow-none input-text search-box"
+                            placeholder="Last name" aria-label="Last name">
+                    </div>
+                    <div class="mb-3">
                         <input type="email" class="form-control rounded-0 shadow-none input-text search-box"
                             id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
                     </div>
@@ -113,18 +121,11 @@
                         <input type="password" class="form-control rounded-0 shadow-none input-text search-box"
                             id="exampleInputPassword1" placeholder="Password">
                     </div>
-                    <div class="button"><a href="#" class="shop-btn">Sign in</a></div>
-                    <hr class="line">
-                    <div class="login-option">
-                        <a class="login-page-option" href="">
-                            <p>Forgot your password?</p>
-                        </a>
-                        <a class="login-page-option" href="register.html">
-                            <p>Create account</p>
-                        </a>
-                        <a class="login-page-option" href="index.html">
-                            <p>Return to Store</p>
-                        </a>
+                    <div class="container">
+                        <div class="row justify-content-between">
+                            <div class="col-12 col-lg-6 create-btn"><a href="#" class="shop-btn">Create</a></div>
+                            <div class="col-12 col-lg-6 return-btn"><a href="index.html" class="shop-btn">Return to Store</a></div>
+                        </div>
                     </div>
                 </form>
             </div>
@@ -270,7 +271,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="index.js"></script>
-    
+
 </body>
 
 </html>

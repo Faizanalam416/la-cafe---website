@@ -1182,7 +1182,10 @@ input[type="radio"] {
     color: #be9c79;
 }
 
-
+/* Create Account */
+.create-btn {
+    margin-bottom: 50px;
+}
 
 
 
