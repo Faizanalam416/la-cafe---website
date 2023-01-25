@@ -178,6 +178,7 @@ nav {
     background: #5e473e;
     background-image: url(/images/button-img.png);
     background-position: 50% 70%;
+    color: #fff;
 }
 
 /* features */
@@ -986,6 +987,7 @@ input[type="radio"] {
 .social-media-icon:hover {
     transition: all 0.5s ease;
     background: #514242;
+    color: #fff;
 }
 
 /* testimonials */
