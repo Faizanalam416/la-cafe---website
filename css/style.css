@@ -1198,6 +1198,9 @@ input[type="radio"] {
 
 
 @media (max-width: 990px) {
+    .navbar-toggler {
+        margin-right: 3%;
+    }
     .logo {
         width: 12%;
     }
