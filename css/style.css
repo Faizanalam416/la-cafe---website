@@ -3,7 +3,9 @@ body {
 }
 
 /* Navigation-bar */
-
+.bgcolor.scrolled {
+    background-color: #5e473e;
+}
 nav {
     position: relative;
 }
@@ -1198,6 +1200,9 @@ input[type="radio"] {
 
 
 @media (max-width: 990px) {
+    .navbar {
+        background-color: #5e473e;
+    }
     .navbar-toggler {
         margin-right: 3%;
     }
