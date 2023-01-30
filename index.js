@@ -6,5 +6,5 @@ function toggleMenu() {
 
 
 $(window).scroll(function(){
-    $('nav').toggleClass('scrolled',$(this).scrollTop()>100);
+    $('nav').toggleClass('scrolled',$(this).scrollTop()>180);
 });
